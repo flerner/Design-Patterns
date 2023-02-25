@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Singleton\Singleton\bin\Debug\Singleton.exe.config
+E:\Quark\Design Patterns\Singleton\Singleton\bin\Debug\Singleton.exe
+E:\Quark\Design Patterns\Singleton\Singleton\bin\Debug\Singleton.pdb
+E:\Quark\Design Patterns\Singleton\Singleton\obj\Debug\Singleton.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Singleton\Singleton\obj\Debug\Singleton.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Singleton\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Singleton\Singleton\obj\Debug\Singleton.exe
+E:\Quark\Design Patterns\Singleton\Singleton\obj\Debug\Singleton.pdb
