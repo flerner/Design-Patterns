@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Bridge\Bridge\bin\Debug\Bridge.exe.config
+E:\Quark\Design Patterns\Bridge\Bridge\bin\Debug\Bridge.exe
+E:\Quark\Design Patterns\Bridge\Bridge\bin\Debug\Bridge.pdb
+E:\Quark\Design Patterns\Bridge\Bridge\obj\Debug\Bridge.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Bridge\Bridge\obj\Debug\Bridge.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Bridge\Bridge\obj\Debug\Bridge.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Bridge\Bridge\obj\Debug\Bridge.exe
+E:\Quark\Design Patterns\Bridge\Bridge\obj\Debug\Bridge.pdb
