@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Adapter\Adapter\bin\Debug\Adapter.exe.config
+E:\Quark\Design Patterns\Adapter\Adapter\bin\Debug\Adapter.exe
+E:\Quark\Design Patterns\Adapter\Adapter\bin\Debug\Adapter.pdb
+E:\Quark\Design Patterns\Adapter\Adapter\obj\Debug\Adapter.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Adapter\Adapter\obj\Debug\Adapter.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Adapter\Adapter\obj\Debug\Adapter.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Adapter\Adapter\obj\Debug\Adapter.exe
+E:\Quark\Design Patterns\Adapter\Adapter\obj\Debug\Adapter.pdb

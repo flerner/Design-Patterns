@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Builder\Builder\bin\Debug\Builder.exe.config
+E:\Quark\Design Patterns\Builder\Builder\bin\Debug\Builder.exe
+E:\Quark\Design Patterns\Builder\Builder\bin\Debug\Builder.pdb
+E:\Quark\Design Patterns\Builder\Builder\obj\Debug\Builder.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Builder\Builder\obj\Debug\Builder.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Builder\Builder\obj\Debug\Builder.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Builder\Builder\obj\Debug\Builder.exe
+E:\Quark\Design Patterns\Builder\Builder\obj\Debug\Builder.pdb

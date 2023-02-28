@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Factory\Abstract Factory\Abstract Factory\bin\Debug\Abstract Factory.exe.config
+E:\Quark\Design Patterns\Factory\Abstract Factory\Abstract Factory\bin\Debug\Abstract Factory.exe
+E:\Quark\Design Patterns\Factory\Abstract Factory\Abstract Factory\bin\Debug\Abstract Factory.pdb
+E:\Quark\Design Patterns\Factory\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Factory\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Factory\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Factory\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.exe
+E:\Quark\Design Patterns\Factory\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.pdb
