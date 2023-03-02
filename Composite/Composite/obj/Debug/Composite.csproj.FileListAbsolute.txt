@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Composite\Composite\bin\Debug\Composite.exe.config
+E:\Quark\Design Patterns\Composite\Composite\bin\Debug\Composite.exe
+E:\Quark\Design Patterns\Composite\Composite\bin\Debug\Composite.pdb
+E:\Quark\Design Patterns\Composite\Composite\obj\Debug\Composite.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Composite\Composite\obj\Debug\Composite.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Composite\Composite\obj\Debug\Composite.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Composite\Composite\obj\Debug\Composite.exe
+E:\Quark\Design Patterns\Composite\Composite\obj\Debug\Composite.pdb

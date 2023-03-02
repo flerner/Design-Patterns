@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Proxy\Proxy\bin\Debug\Proxy.exe.config
+E:\Quark\Design Patterns\Proxy\Proxy\bin\Debug\Proxy.exe
+E:\Quark\Design Patterns\Proxy\Proxy\bin\Debug\Proxy.pdb
+E:\Quark\Design Patterns\Proxy\Proxy\obj\Debug\Proxy.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Proxy\Proxy\obj\Debug\Proxy.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Proxy\Proxy\obj\Debug\Proxy.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Proxy\Proxy\obj\Debug\Proxy.exe
+E:\Quark\Design Patterns\Proxy\Proxy\obj\Debug\Proxy.pdb

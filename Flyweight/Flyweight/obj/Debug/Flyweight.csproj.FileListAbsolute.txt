@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Flyweight\Flyweight\bin\Debug\Flyweight.exe.config
+E:\Quark\Design Patterns\Flyweight\Flyweight\bin\Debug\Flyweight.exe
+E:\Quark\Design Patterns\Flyweight\Flyweight\bin\Debug\Flyweight.pdb
+E:\Quark\Design Patterns\Flyweight\Flyweight\obj\Debug\Flyweight.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Flyweight\Flyweight\obj\Debug\Flyweight.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Flyweight\Flyweight\obj\Debug\Flyweight.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Flyweight\Flyweight\obj\Debug\Flyweight.exe
+E:\Quark\Design Patterns\Flyweight\Flyweight\obj\Debug\Flyweight.pdb

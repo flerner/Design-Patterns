@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Facade\Facade\bin\Debug\Facade.exe.config
+E:\Quark\Design Patterns\Facade\Facade\bin\Debug\Facade.exe
+E:\Quark\Design Patterns\Facade\Facade\bin\Debug\Facade.pdb
+E:\Quark\Design Patterns\Facade\Facade\obj\Debug\Facade.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Facade\Facade\obj\Debug\Facade.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Facade\Facade\obj\Debug\Facade.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Facade\Facade\obj\Debug\Facade.exe
+E:\Quark\Design Patterns\Facade\Facade\obj\Debug\Facade.pdb
