@@ -1,0 +1,11 @@
+E:\Quark\Design Patterns\Iterator\Iterator\bin\Debug\Iterator.exe.config
+E:\Quark\Design Patterns\Iterator\Iterator\bin\Debug\Iterator.exe
+E:\Quark\Design Patterns\Iterator\Iterator\bin\Debug\Iterator.pdb
+E:\Quark\Design Patterns\Iterator\Iterator\obj\Debug\Iterator.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Iterator\Iterator\obj\Debug\Iterator.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Iterator\Iterator\obj\Debug\Iterator.Form1.resources
+E:\Quark\Design Patterns\Iterator\Iterator\obj\Debug\Iterator.Properties.Resources.resources
+E:\Quark\Design Patterns\Iterator\Iterator\obj\Debug\Iterator.csproj.GenerateResource.cache
+E:\Quark\Design Patterns\Iterator\Iterator\obj\Debug\Iterator.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Iterator\Iterator\obj\Debug\Iterator.exe
+E:\Quark\Design Patterns\Iterator\Iterator\obj\Debug\Iterator.pdb

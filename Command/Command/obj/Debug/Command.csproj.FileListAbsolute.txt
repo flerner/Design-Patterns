@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Command\Command\bin\Debug\Command.exe.config
+E:\Quark\Design Patterns\Command\Command\bin\Debug\Command.exe
+E:\Quark\Design Patterns\Command\Command\bin\Debug\Command.pdb
+E:\Quark\Design Patterns\Command\Command\obj\Debug\Command.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Command\Command\obj\Debug\Command.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Command\Command\obj\Debug\Command.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Command\Command\obj\Debug\Command.exe
+E:\Quark\Design Patterns\Command\Command\obj\Debug\Command.pdb
