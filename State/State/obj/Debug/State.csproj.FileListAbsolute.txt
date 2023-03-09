@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\State\State\bin\Debug\State.exe.config
+E:\Quark\Design Patterns\State\State\bin\Debug\State.exe
+E:\Quark\Design Patterns\State\State\bin\Debug\State.pdb
+E:\Quark\Design Patterns\State\State\obj\Debug\State.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\State\State\obj\Debug\State.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\State\State\obj\Debug\State.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\State\State\obj\Debug\State.exe
+E:\Quark\Design Patterns\State\State\obj\Debug\State.pdb

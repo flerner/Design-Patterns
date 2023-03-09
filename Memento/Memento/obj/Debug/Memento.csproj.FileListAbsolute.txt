@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Memento\Memento\bin\Debug\Memento.exe.config
+E:\Quark\Design Patterns\Memento\Memento\bin\Debug\Memento.exe
+E:\Quark\Design Patterns\Memento\Memento\bin\Debug\Memento.pdb
+E:\Quark\Design Patterns\Memento\Memento\obj\Debug\Memento.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Memento\Memento\obj\Debug\Memento.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Memento\Memento\obj\Debug\Memento.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Memento\Memento\obj\Debug\Memento.exe
+E:\Quark\Design Patterns\Memento\Memento\obj\Debug\Memento.pdb

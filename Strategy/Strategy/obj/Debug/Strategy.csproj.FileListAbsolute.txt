@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Strategy\Strategy\bin\Debug\Strategy.exe.config
+E:\Quark\Design Patterns\Strategy\Strategy\bin\Debug\Strategy.exe
+E:\Quark\Design Patterns\Strategy\Strategy\bin\Debug\Strategy.pdb
+E:\Quark\Design Patterns\Strategy\Strategy\obj\Debug\Strategy.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Strategy\Strategy\obj\Debug\Strategy.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Strategy\Strategy\obj\Debug\Strategy.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Strategy\Strategy\obj\Debug\Strategy.exe
+E:\Quark\Design Patterns\Strategy\Strategy\obj\Debug\Strategy.pdb

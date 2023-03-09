@@ -1,0 +1,11 @@
+E:\Quark\Design Patterns\Mediator\Mediator\bin\Debug\Mediator.exe.config
+E:\Quark\Design Patterns\Mediator\Mediator\bin\Debug\Mediator.exe
+E:\Quark\Design Patterns\Mediator\Mediator\bin\Debug\Mediator.pdb
+E:\Quark\Design Patterns\Mediator\Mediator\obj\Debug\Mediator.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Mediator\Mediator\obj\Debug\Mediator.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Mediator\Mediator\obj\Debug\Mediator.Form1.resources
+E:\Quark\Design Patterns\Mediator\Mediator\obj\Debug\Mediator.Properties.Resources.resources
+E:\Quark\Design Patterns\Mediator\Mediator\obj\Debug\Mediator.csproj.GenerateResource.cache
+E:\Quark\Design Patterns\Mediator\Mediator\obj\Debug\Mediator.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Mediator\Mediator\obj\Debug\Mediator.exe
+E:\Quark\Design Patterns\Mediator\Mediator\obj\Debug\Mediator.pdb
