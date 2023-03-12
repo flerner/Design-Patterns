@@ -24,3 +24,11 @@ When to use this pattern?
 -Use the Abstract Factory when your code needs to work with various families of related products, but you don’t want it to depend on the concrete classes of those products—they might be unknown beforehand or you simply want to allow for future extensibility.
 
 -Consider implementing the Abstract Factory when you have a class with a set of Factory Methods that blur its primary responsibility.
+
+3 -> Builder Pattern
+The Builder Pattern allows you to construct complex objects step by step. It allows you to produce different types and representations of an object using the same construction code.
+Using the Builder pattern makes sense only when your products are quite complex and require extensive configuration. Such as nested objects, you can build each object in a different step, making the final object in many steps.
+
+When to use this pattern?
+
+-Use the Builder pattern to get rid of a “telescoping constructor”. That means overloading the constructor many times for each variant of the object and some constructors may finish with a lot of parametters, wich is not recommended.
