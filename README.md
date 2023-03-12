@@ -2,6 +2,7 @@
 
 Creational Patterns:
 
+
 1 -> Factory Method
 Factory Method is a pattern that provides a interface for creating objects in a superclass and allows the child classes to modify the type of objects that will be created.
 Despite its name, the creator class main responsibility is not creating products, and it usually contains some core business logic that relies on product objects returned by this creator. Subclasses can even change some details of the core logic overriding a method.
@@ -25,6 +26,7 @@ When to use this pattern?
 
 -Consider implementing the Abstract Factory when you have a class with a set of Factory Methods that blur its primary responsibility.
 
+
 3 -> Builder Pattern
 The Builder Pattern allows you to construct complex objects step by step. It allows you to produce different types and representations of an object using the same construction code.
 Using the Builder pattern makes sense only when your products are quite complex and require extensive configuration. Such as nested objects, you can build each object in a different step, making the final object in many steps.
@@ -32,3 +34,16 @@ Using the Builder pattern makes sense only when your products are quite complex 
 When to use this pattern?
 
 -Use the Builder pattern to get rid of a “telescoping constructor”. That means overloading the constructor many times for each variant of the object and some constructors may finish with a lot of parametters, wich is not recommended.
+
+
+4 -> Prototype Pattern
+Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+The Prototype pattern delegates the cloning process to the actual objects that are being cloned. If not, we would have to create the object, and iterate through all its fields to copy them, but doing this we would break the privacy of the object and we would being exposing too much the object.
+The pattern declares a common interface for all objects that support cloning, usuallt with only one method Clone(). In the concrete object to clone is as simple as implement that method returning a new ObjectName(this).
+
+When to use this pattern?
+
+Use the Prototype pattern when your code shouldn’t depend on the concrete classes of objects that you need to copy.
+
+ Use the pattern when you want to reduce the number of subclasses that only differ in the way they initialize their respective objects.
+
