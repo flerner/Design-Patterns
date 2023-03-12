@@ -1,0 +1,8 @@
+E:\Quark\Design Patterns\Visitor\Visitor\bin\Debug\Visitor.exe.config
+E:\Quark\Design Patterns\Visitor\Visitor\bin\Debug\Visitor.exe
+E:\Quark\Design Patterns\Visitor\Visitor\bin\Debug\Visitor.pdb
+E:\Quark\Design Patterns\Visitor\Visitor\obj\Debug\Visitor.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Visitor\Visitor\obj\Debug\Visitor.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Visitor\Visitor\obj\Debug\Visitor.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Visitor\Visitor\obj\Debug\Visitor.exe
+E:\Quark\Design Patterns\Visitor\Visitor\obj\Debug\Visitor.pdb

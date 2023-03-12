@@ -1,0 +1,11 @@
+E:\Quark\Design Patterns\Template Method\Template Method\bin\Debug\Template Method.exe.config
+E:\Quark\Design Patterns\Template Method\Template Method\bin\Debug\Template Method.exe
+E:\Quark\Design Patterns\Template Method\Template Method\bin\Debug\Template Method.pdb
+E:\Quark\Design Patterns\Template Method\Template Method\obj\Debug\Template Method.csproj.AssemblyReference.cache
+E:\Quark\Design Patterns\Template Method\Template Method\obj\Debug\Template Method.csproj.SuggestedBindingRedirects.cache
+E:\Quark\Design Patterns\Template Method\Template Method\obj\Debug\Template_Method.Form1.resources
+E:\Quark\Design Patterns\Template Method\Template Method\obj\Debug\Template_Method.Properties.Resources.resources
+E:\Quark\Design Patterns\Template Method\Template Method\obj\Debug\Template Method.csproj.GenerateResource.cache
+E:\Quark\Design Patterns\Template Method\Template Method\obj\Debug\Template Method.csproj.CoreCompileInputs.cache
+E:\Quark\Design Patterns\Template Method\Template Method\obj\Debug\Template Method.exe
+E:\Quark\Design Patterns\Template Method\Template Method\obj\Debug\Template Method.pdb
