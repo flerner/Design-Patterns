@@ -47,7 +47,40 @@ The pattern declares a common interface for all objects that support cloning, us
 
 When to use this pattern?
 
-Use the Prototype pattern when your code shouldn’t depend on the concrete classes of objects that you need to copy.
+-Use the Prototype pattern when your code shouldn’t depend on the concrete classes of objects that you need to copy.
 
- Use the pattern when you want to reduce the number of subclasses that only differ in the way they initialize their respective objects.
+-Use the pattern when you want to reduce the number of subclasses that only differ in the way they initialize their respective objects.
+ 
+ 
+ 5 -> Singleton Pattern
+ 
+Singleton is a creational design pattern that ensure that a class has only one instance, allowing acces globally.
+Constructor of this class will be private so anyone can instanciate it, and provides a static method to get the instance, where if no one called that method a new instance will be returned, but if that method were called at least once, it will return the existing instance.
+ 
+ When to use this pattern?
+ 
+ - When you want only one instance of a class for all clients, for example, a single database object shared by different parts of the program. 
+ 
+ - Use the Singleton pattern when you need stricter control over global variables.
+ 
+ 
+ Structural Patterns:
+ 
+ 1 -> Adapter
+ 
+Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+If there is a class that you need to use, but its interface is not compatible with the rest of the code, you can use this pattern, that creating a class that support both the interface of the new class and the old class that need the new one, it can make a business logic that includes both classes.
+One option is that the adapter class extends the old class so it can operate like that class, and it has an instance of the new class, so you can make logic that includes both classes.
+ 
+ When to use this pattern?
+ 
+ -Use the Adapter class when you want to use some existing class, but its interface isn’t compatible with the rest of your code.
+ 
+ -Use the pattern when you want to reuse several existing subclasses that lack some common functionality that can’t be added to the superclass.
+ 
+ 
+ 2 -> Bridge
+ 
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+Without using brinde, a class can get a lot of subclasses for variants of the superclass. For example, a class Shape that has two subclasses, Circle and Square. If we want to add colours to that classes, we should extend Circle and make as much subclasses as colours we want. So, instead, we can make an independent hierarchy, with a superclass Colour, and subclasses with the real implementation, and in the class Shape, we declare an instance of the hierarchy Colour. So, now we can combine any shape with any colour without getting a hierarchy with many subclasses.
 
