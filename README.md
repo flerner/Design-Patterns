@@ -84,3 +84,17 @@ One option is that the adapter class extends the old class so it can operate lik
 Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
 Without using brinde, a class can get a lot of subclasses for variants of the superclass. For example, a class Shape that has two subclasses, Circle and Square. If we want to add colours to that classes, we should extend Circle and make as much subclasses as colours we want. So, instead, we can make an independent hierarchy, with a superclass Colour, and subclasses with the real implementation, and in the class Shape, we declare an instance of the hierarchy Colour. So, now we can combine any shape with any colour without getting a hierarchy with many subclasses.
 
+
+
+3 -> Composite
+
+Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
+When a project structure is tree-like, I mean, if your hierarchy is structured by products and containers (containers can store products or more containers), and you want to iterate every class for doing something, lets say CalculateTotal(), you could iterate between all objects and asking if its a product or its a containers, and then if its a containers you should iterate that container as well, and that would be messy.
+Instead you could apply composite pattern which declares a common interface between all objects in the tree with business logic method, in this case CalculateTotal(), and in the case of composite that method will iterate all the products inside and ask for its total, and in the case of the product it will just return its total. That way, from the client code, you don't need to know if its a final product or a container, you just call the method and the classes work it through.
+Imagine a project that contains directorys and files. Directorys can store more directorys or just files (will be stored in a variable of the type of the interface, lets call it Component. So you can just call the method without worrying if its a file or a directory). In the directory class the buisness logic method will iterate the collection of components without knowing its type and calling the method. If the iterator is on a container, will repeat that logic, if its a product it will return the total, so every component will be iterated.
+
+When to use this pattern?
+
+-Use the Composite pattern when you have to implement a tree-like object structure
+
+-Use the pattern when you want the client code to treat both simple and complex elements uniformly.
