@@ -98,3 +98,78 @@ When to use this pattern?
 - Use the Composite pattern when you have to implement a tree-like object structure
 
 - Use the pattern when you want the client code to treat both simple and complex elements uniformly.
+
+
+4 -> Decorator
+
+Decorator is a structural design pattern that allows you to add extra functionality to an object without changing it, but instead declaring a wrapper that contains that object and can add extra methods. Each wrapper can hold another wrapper with a concrete component inside or another wrapper, there is no limit of the chain of wrappers. Allways the last wrapper must have the concrete component.
+Every decorator and component must implement the same interface, so both can be wrapped with composition/aggregation under the same type. So, the base decorator implemets the same interface that the concrete object and at the same time contains a reference to an object (component or another decorator) under the type of the interface.
+
+When to use this pattern?
+
+- Use the Decorator pattern when you need to be able to assign extra behaviors to objects at runtime without breaking the code that uses these objects.
+- Use the pattern when it’s awkward or not possible to extend an object’s behavior using inheritance.
+
+
+5 -> Facade
+
+Facade is a structural design pattern that gives a reduced interface to a library or framework or any other complex group of objects.
+If you want to acces a specific functionality of a complex structure of classes you may want to use a facade, wich knows only how to deal with that funcionality, without accesing directly to the structure. The facade can have references to the objects needed, or as well it can receive it as parameters of a method, and solve the funcionality by itself. The client only know the facade.
+
+
+When to use this pattern?
+
+- Use the facade pattern if you need a limited but direct interface to a complex system.
+- When you want to structure a subsystem in layers.
+
+
+6 -> Flyweight
+
+Is a structural pattern that allows you to keep shared parts of an object divided in different objects insted of keeping all the information inside each object. This aims to reduce the amount of RAM consumed.
+Imagine that you have a forest with a collection of trees. Each tree has a name, colour, texture and position in the forest. Almost every tree is of the same family so its name, colour and texture will be the same.
+So, you can extract that information to another class so, now we have two classes: TreeType (name, colour, texture) and Tree (x, y). That information that is immutable and shared with a lot of objects its called "Instrinsic state" whereas the information that
+change in every object like position its called "Extrinsic state". So, the class wich we are dividing should keep the extrinsic state, and the intrinsic state should be moved to another class. (Tree will be our main class and TreeType our Flyweight class).
+It is used to have a factory for the Flyweight class with a method GetFlyweight where check if in the collection of flyweights already exist a class with required attributes, if does return that instance, if not, return a new instance with that attributes.
+
+When to use this pattern?
+
+-Use the Flyweight pattern only when your program must support a huge number of objects which barely fit into available RAM.
+
+7 -> Proxy
+
+A structural pattern that allows to provide a substitute or intermediate for an object. It could have many reasons for existing like, security steps, cache storaging, basically everything that you would like to execute before executing the actual object you can do it at the proxy class.
+And yu can add more proxies without touching the service code, that helps with open/closed principle.
+
+When to use this pattern?
+
+-Acces control: When you want that only specific clients be able to use the object of service.
+-Local execution of a remote service: When an object is located at a remote server, you can delegate all the ugly steps of working with the network to the proxy so the object only receive the final data.
+-Register request: When you want to keep a history of requests to the service object.
+
+
+
+Behavioral Patterns:
+
+1 -> Chain of Responsibility
+
+It's a pattern that lets you pass requests along a chain of handlers. Each handler can decide if process the request or pass it to the next handler in chain.
+You could have several validations methods in a class with a lot of conditionals but that would be messy.
+Instead, you define several classes with a single method that performs the check, and the request, along with its data is passed to this method as an argument. Each one of this classes has a pointer to the next class in chain.
+The class can perform the check or pass it to another class if the conditions are not for this class, or even cancel the action if data is corrupted or incorrect.
+
+When to use this pattern?
+
+- Use the Chain of Responsibility pattern when your program is expected to process different kinds of requests in various ways, but the exact types of requests and their sequences are unknown beforehand.
+- Use the pattern when it’s essential to execute several handlers in a particular order.
+- When the set of handlers and their order are supposed to change at runtime. If you provide setters for a reference field inside the handler classes, you’ll be able to insert, remove or reorder handlers dynamically.
+
+
+2 -> Command
+
+Its a pattern that converts a request into an object (command) wich contains all the info about the request. That allows you to make the request into different methods, put it int a queue.
+
+When to use this pattern?
+
+- If you want to put operations in queue, program its execution or execute them remotely.
+- If you want to implement reversible operations. When you make a request that request converts into an object and putted into a queue or requests. If you want to delete, or change a request, you can just go to that queue and modify it.
+
