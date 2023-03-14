@@ -74,9 +74,9 @@ One option is that the adapter class extends the old class so it can operate lik
  
  When to use this pattern?
  
- -Use the Adapter class when you want to use some existing class, but its interface isn’t compatible with the rest of your code.
+ - Use the Adapter class when you want to use some existing class, but its interface isn’t compatible with the rest of your code.
  
- -Use the pattern when you want to reuse several existing subclasses that lack some common functionality that can’t be added to the superclass.
+ - Use the pattern when you want to reuse several existing subclasses that lack some common functionality that can’t be added to the superclass.
  
  
  2 -> Bridge
@@ -95,6 +95,6 @@ Imagine a project that contains directorys and files. Directorys can store more 
 
 When to use this pattern?
 
--Use the Composite pattern when you have to implement a tree-like object structure
+- Use the Composite pattern when you have to implement a tree-like object structure
 
--Use the pattern when you want the client code to treat both simple and complex elements uniformly.
+- Use the pattern when you want the client code to treat both simple and complex elements uniformly.
