@@ -184,3 +184,13 @@ When to use this pattern?
  - Use the Iterator pattern when your collection has a complex data structure under the hood, but you want to hide its complexity from clients: The iterator encapsulates the details of working with a complex data structure, providing the client with several simple methods of accessing the collection elements. 
  - Use the pattern to reduce duplication of the traversal code across your app: Iteration codes can be very unplacent to see, so if we implement that in the middle of a business logic it could be very difficult to understand and mantain. So we delegate that responsibility to a concrete class. 
 
+
+4 -> Mediator
+
+When a class has a specific behaviour based on the stimulus that receive, and you want to reuse that class if the stimulus is different, you're gonna have to add a bunch of conditionals to change the behaviour. Instead of that, you can use a Mediator class, that receive the stimulus of the class, and can receive stimulus from a bunch of other classes, and there is where you put all the logic and conditionals to change the behaviour. Imagine a button that you want to reuse to make it do different actions, and input textbox, all connected and with a lot of conditionals in each class to respond to a certain button, or a certain input textbox. Instead of that, you send all the information to a Mediator class through a common interface so each component only depends on an abstraction, and that class process and make a response based on the information received.
+
+When to use this class?
+
+- When you realise that a few classes depends on a lot of other classes, you can extract all the dependencies to a single Mediator class and aislating any specific change of the specific classes.
+- When you can't use a component in another program because it has too many dependencies on specific classes.
+- When you find yourself creating a lot of subclasses to change specific behaviours to classes that share a common basic behaviour.
