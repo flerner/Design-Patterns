@@ -173,3 +173,14 @@ When to use this pattern?
 - If you want to put operations in queue, program its execution or execute them remotely.
 - If you want to implement reversible operations. When you make a request that request converts into an object and putted into a queue or requests. If you want to delete, or change a request, you can just go to that queue and modify it.
 
+
+3 -> Iterator
+
+
+Iterator pattern allows to iterate through a collection without knowing its implementation. I mean that that collection can be of any type, and for each type we can create a different iterator, so each concrete iterator will know how to iterate that collection. We even can create multiple iterators for a same collection, if we want to iterate it in different ways.
+
+When to use this pattern?
+
+ - Use the Iterator pattern when your collection has a complex data structure under the hood, but you want to hide its complexity from clients: The iterator encapsulates the details of working with a complex data structure, providing the client with several simple methods of accessing the collection elements. 
+ - Use the pattern to reduce duplication of the traversal code across your app: Iteration codes can be very unplacent to see, so if we implement that in the middle of a business logic it could be very difficult to understand and mantain. So we delegate that responsibility to a concrete class. 
+
