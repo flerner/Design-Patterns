@@ -207,4 +207,14 @@ Allows to go back to a previous state of an object, that is possible trough an i
 
 ## 6 -> Observer
 
+Obesrver let a class that implement a specific interface, to suscribe to lets say a EventManager class. This class can notify to all suscribers if there is a change of state, or whenever it wants. And each suscriber react different to that notification. This allows to EventManager to notify to classes of a unknown type, the only part in common is the interface, that allows the EventManager to hold all that classes, and also allows to send the notification, often with itself as a parameter.
+
+**When to use this pattern?**
+- Use the Observer pattern when changes to the state of one object may require changing other objects, and the actual set of objects is unknown beforehand or changes dynamically.
+- Use the pattern when some objects in your app must observe others, but only for a limited time or in specific cases.
+
+
+## 7 -> State
+
+
 
