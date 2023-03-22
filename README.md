@@ -3,7 +3,7 @@
 ### Creational Patterns:
 
 
-## 1 -> Factory Method
+## 1 :arrow_forward: Factory Method
 
 Factory Method is a pattern that provides a interface for creating objects in a superclass and allows the child classes to modify the type of objects that will be created.
 Despite its name, the creator class main responsibility is not creating products, and it usually contains some core business logic that relies on product objects returned by this creator. Subclasses can even change some details of the core logic overriding a method.
