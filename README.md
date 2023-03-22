@@ -64,7 +64,7 @@ Constructor of this class will be private so anyone can instanciate it, and prov
  - Use the Singleton pattern when you need stricter control over global variables.
  
  
-# Structural Patterns:
+### Structural Patterns:
  
 ## 1 -> Adapter
  
@@ -148,7 +148,7 @@ And yu can add more proxies without touching the service code, that helps with o
 
 
 
-# Behavioral Patterns:
+### Behavioral Patterns:
 
 ## 1 -> Chain of Responsibility
 
