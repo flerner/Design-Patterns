@@ -217,4 +217,13 @@ Obesrver let a class that implement a specific interface, to suscribe to lets sa
 ## 7 -> State
 
 
+State pattern allows to diversify a class that could make different things depending on its state. Instead of having a lot of conditionals to change the behaviour depending on its state, we can define an abstract class, and the concrete classes will inherit from that class, and each concrete class will have the name of its state. For example, a media player. The asbtract class will be State. The concrete children will be ReadyState, PlayingState. So, depending on its state the class instanciated will be different. And the most important is that the state class will have a reference to the class that holds it, so it can tell it: "hey, change my state to 'x'". So if we used the class PlayingState, means that will change to ReadyState because it already played. So ReadyState will call to the holder.changeState(new ReadyState()). That way, each class can perform an action and replace itself with another children.
 
+**When to use this pattern?**
+
+- Use the State pattern when you have an object that behaves differently depending on its current state, the number of states is enormous, and the state-specific code changes frequently.
+- Use the pattern when you have a class polluted with massive conditionals that alter how the class behaves according to the current values of the class’s fields.
+- Use State when you have a lot of duplicate code across similar states and transitions of a condition-based state machine.
+
+
+## 8 -> Strategy
