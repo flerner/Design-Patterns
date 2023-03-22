@@ -194,3 +194,17 @@ When a class has a specific behaviour based on the stimulus that receive, and yo
 - When you realise that a few classes depends on a lot of other classes, you can extract all the dependencies to a single Mediator class and aislating any specific change of the specific classes.
 - When you can't use a component in another program because it has too many dependencies on specific classes.
 - When you find yourself creating a lot of subclasses to change specific behaviours to classes that share a common basic behaviour.
+
+
+## 5 -> Memento
+
+Allows to go back to a previous state of an object, that is possible trough an intermediate class Memento, wich store the state of the object at that time, and saved in a stack of Mementos, so the object can go back to a previous state popping out a state of the stack.
+
+**When to use this pattern?**
+- When you want to produce snapshots of the object’s state to be able to restore a previous state of the object: A common example is the "undo" function, but it is also very common in transactions, when you need to undo it because of an error.
+- When direct access to the object’s fields/getters/setters violates its encapsulation.
+
+
+## 6 -> Observer
+
+
