@@ -227,3 +227,16 @@ State pattern allows to diversify a class that could make different things depen
 
 
 ## 8 :arrow_right: Strategy
+
+Strategy pattern is very similar to the State pattern, in a way that it change the behaviour of an action, based on a similar structure. A common interface wich various classes implement so they can perform a specific action. So, based on a client specification, the strategy class holded in the main class can be replaced with another class that implement the same interface, so it perform a different action. To summarize, the State pattern changes the behavior of an object based on its internal state, while the Strategy pattern allows the behavior of an object to be swapped out based on external factors.
+
+**When to use this pattern?**
+
+- Use the Strategy pattern when you want to use different variants of an algorithm within an object and be able to switch from one algorithm to another during runtime.
+- Use the Strategy when you have a lot of similar classes that only differ in the way they execute some behavior.
+- Use the pattern when your class has a massive conditional statement that switches between different variants of the same algorithm.
+- Use the pattern to isolate the business logic of a class from the implementation details of algorithms that may not be as important in the context of that logic.
+
+
+## 9 :arrow_right: Template Method
+
