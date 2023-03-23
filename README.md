@@ -249,3 +249,11 @@ Template Method tells you to define a series of steps, in the form of methods. T
 
 
 ## 10 :arrow_right: Visitor
+
+Visitor allows to separate algorithms from the objects on which they operate.  It provides a way to add new operations to an object structure without changing the objects themselves. From two main interfaces, "Visitor" wich has the visit method with a parameter of the object type, and a "Elemen" interface wich has the accept(v: IVisitor) method. This allows to call this method from client code, passing a Concrete Visitor as a parameter, so the object will execute the accept(v: IVisitor) method wich will execute the v.visit() method. The visit() method will vary depending on wich concrete visitor has been passed as a parameter. As the object receive as a parameter a Interface type, you can pass any concrete visitor that follow that interface, and the object will call the method of the corresponding visitor.
+
+**When to use this pattern?**
+
+- Use the Visitor when you need to perform an operation on all elements of a complex object structure (for example, an object tree).
+- Use the Visitor to clean up the business logic of auxiliary behaviors: The pattern lets you make the primary classes of your app more focused on their main jobs by extracting all other behaviors into a set of visitor classes.
+- Use the pattern when a behavior makes sense only in some classes of a class hierarchy, but not in others.
