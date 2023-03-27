@@ -141,7 +141,7 @@ It is used to have a factory for the Flyweight class with a method GetFlyweight 
 ## 7 :arrow_right: Proxy
 
 A structural pattern that allows to provide a substitute or intermediate for an object. It could have many reasons for existing like, security steps, cache storaging, basically everything that you would like to execute before executing the actual object you can do it at the proxy class.
-And yu can add more proxies without touching the service code, that helps with open/closed principle.
+And you can add more proxies without touching the service code, that helps with open/closed principle.
 
 **When to use this pattern?**
 
