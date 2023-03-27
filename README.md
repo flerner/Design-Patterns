@@ -84,7 +84,10 @@ One option is that the adapter class extends the old class so it can operate lik
 Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
 Without using brinde, a class can get a lot of subclasses for variants of the superclass. For example, a class Shape that has two subclasses, Circle and Square. If we want to add colours to that classes, we should extend Circle and make as much subclasses as colours we want. So, instead, we can make an independent hierarchy, with a superclass Colour, and subclasses with the real implementation, and in the class Shape, we declare an instance of the hierarchy Colour. So, now we can combine any shape with any colour without getting a hierarchy with many subclasses.
 
+**When to use this pattern?**
 
+- Use the Bridge pattern when you want to divide and organize a monolithic class that has several variants of some functionality (for example, if the class can work with various database servers).
+- Use the pattern when you need to extend a class in several orthogonal (independent) dimensions. The Bridge suggests that you extract a separate class hierarchy for each of the dimensions. The original class delegates the related work to the objects belonging to those hierarchies instead of doing everything on its own.
 
 ## 3 :arrow_right: Composite
 
